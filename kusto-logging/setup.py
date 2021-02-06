@@ -42,6 +42,6 @@ setup(
     ],
     namespace_packages=["kusto"],
     keywords="kusto wrapper client library logging",
-    packages=find_packages(exclude=["kusto", "tests"]),
+    packages=find_packages(exclude=["tests"]),
     install_requires=["azure-kusto-ingest>=2.0.0", "pandas"],
 )
