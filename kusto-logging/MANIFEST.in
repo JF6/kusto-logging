@@ -1,2 +1,2 @@
 include *.rst
-include azure/__init__.py
+include kusto/__init__.py
